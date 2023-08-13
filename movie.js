@@ -41,4 +41,3 @@ async function showMovies(pageNumber = 1) {
 }
 
 showMovies();
-  
