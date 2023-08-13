@@ -1,5 +1,5 @@
 const API_KEY = '4309e7869e5a6f7164f1fff7195ee87b';
-const API_URL = `https://api.themoviedb.org/3/discover/movie?include_adult=false&language=en-US&page=${pageNumber}&sort_by=$`;
+const API_URL = "https://api.themoviedb.org/3/discover/movie?include_adult=false&language=en-US&page=${pageNumber}&sort_by=$";
 const POSTER_BASE_URL = 'https://image.tmdb.org/t/p/original/';
 
 const movieList = document.getElementById('movie-list');
